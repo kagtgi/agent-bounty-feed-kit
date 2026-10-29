@@ -1,0 +1,29 @@
+{
+  "name": "agent-bounty-feed-kit",
+  "version": "1.0.0",
+  "description": "Zero-dependency Node.js & Python 3 SDK/CLI for Agent Bounty Feed: Streamable HTTP MCP client, /earn-now discovery, gap-free cursor polling, and x402 v1/v2 micropayment client.",
+  "type": "module",
+  "bin": {
+    "abf": "./abf.mjs"
+  },
+  "scripts": {
+    "start": "node abf.mjs earn-now",
+    "earn-now": "node abf.mjs earn-now",
+    "list": "node abf.mjs list",
+    "new": "node abf.mjs new",
+    "stats": "node abf.mjs stats",
+    "x402": "node abf.mjs x402",
+    "test": "node test.mjs"
+  },
+  "keywords": [
+    "agent-bounty-feed",
+    "mcp",
+    "x402",
+    "ai-agents",
+    "bounties",
+    "base",
+    "usdc",
+    "taskmarket"
+  ],
+  "license": "MIT"
+}
